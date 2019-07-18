@@ -4,7 +4,7 @@ import "./led.css";
 
 class LedOnOff extends Component {
   state = {
-    endpoint: "http://610b1898.ngrok.io",
+    endpoint: "https://610b1898.ngrok.io",
     state: 0 // Off
   };
 
