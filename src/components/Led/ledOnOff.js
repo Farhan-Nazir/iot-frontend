@@ -4,7 +4,7 @@ import "./led.css";
 
 class LedOnOff extends Component {
   state = {
-    endpoint: "http://localhost:5000",
+    endpoint: "http://610b1898.ngrok.io",
     state: 0 // Off
   };
 
@@ -24,7 +24,7 @@ class LedOnOff extends Component {
   render() {
     return (
       <div>
-        <h3>On/Off Led with Button</h3>
+        <h3>On/Off Light with Button</h3>
         <div className="onoffswitch">
           <input
             type="checkbox"
